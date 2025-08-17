@@ -41,7 +41,7 @@ export default function Home() {
                   <Database className="w-5 h-5 text-white" />
                 </div>
                 {/* <span className="text-xl font-bold text-gray-900">ERPPro</span> */}
-                <span className="text-xl font-bold text-gray-900">Venzo</span>
+                <span className="text-xl font-bold text-gray-900">Vistock</span>
               </div>
 
               {/* Desktop Navigation */}
@@ -77,7 +77,8 @@ export default function Home() {
                   Contact
                 </a>
                 <Link
-                  href="/login"
+                  href="https://app.vistock.in"
+                  target="_blank"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105"
                 >
                   Get Started
@@ -269,7 +270,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
                 <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                  Why Choose Venzo for Your Textile Business?
+                  Why Choose Vistock for Your Textile Business?
                 </h2>
                 <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                   Our AI-powered ERP solutions are specifically designed for
@@ -428,7 +429,7 @@ export default function Home() {
                   name: "Sarah Johnson",
                   role: "Production Manager, Premium Textiles Ltd",
                   content:
-                    "Venzo transformed our textile operations completely. We saw a 45% increase in production efficiency and 30% reduction in waste within the first 6 months. Their textile industry expertise is unmatched.",
+                    "Vistock transformed our textile operations completely. We saw a 45% increase in production efficiency and 30% reduction in waste within the first 6 months. Their textile industry expertise is unmatched.",
                   rating: 5,
                 },
                 {
@@ -442,7 +443,7 @@ export default function Home() {
                   name: "Emma Rodriguez",
                   role: "CEO, Sustainable Textiles Co",
                   content:
-                    "Outstanding service from start to finish. The ROI was evident within months, and Venzo continues to drive our sustainable textile production growth with AI-powered insights.",
+                    "Outstanding service from start to finish. The ROI was evident within months, and Vistock continues to drive our sustainable textile production growth with AI-powered insights.",
                   rating: 5,
                 },
               ].map((testimonial, index) => (
@@ -481,7 +482,7 @@ export default function Home() {
             </h2>
             <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
               Join hundreds of successful textile manufacturers that have
-              revolutionized their operations with Venzo&apos AI-powered ERP
+              revolutionized their operations with Vistock&apos AI-powered ERP
               solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -525,7 +526,7 @@ export default function Home() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Email</div>
-                      <div className="text-gray-600">contact@venzo.com</div>
+                      <div className="text-gray-600">contact@vistock.com</div>
                     </div>
                   </div>
 
@@ -623,7 +624,7 @@ export default function Home() {
                     <Database className="w-5 h-5 text-white" />
                   </div>
                   <span className="text-xl font-bold">ERPPro</span>
-                  <span className="text-xl font-bold">Venzo</span>
+                  <span className="text-xl font-bold">Vistock</span>
                 </div>
                 <p className="text-gray-400 leading-relaxed">
                   Transforming textile businesses with AI-powered ERP solutions
@@ -748,7 +749,7 @@ export default function Home() {
 
             <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400">
-                © 2025 Venzo. All rights reserved.
+                © 2025 Vistock. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a
